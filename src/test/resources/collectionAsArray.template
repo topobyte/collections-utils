@@ -1,0 +1,10 @@
+public static $primitive$[] as$Primitive$Array(Collection<$Object$> collection)
+{
+	$primitive$[] array = new $primitive$[collection.size()];
+	Iterator<$Object$> iterator = collection.iterator();
+	int i = 0;
+	while (iterator.hasNext()) {
+		array[i++] = iterator.next();
+	}
+	return array;
+}

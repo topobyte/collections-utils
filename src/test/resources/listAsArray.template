@@ -1,0 +1,9 @@
+public static $primitive$[] as$Primitive$Array(List<$Object$> list)
+{
+	int n = list.size();
+	$primitive$[] array = new $primitive$[n];
+	for (int i = 0; i < n; i++) {
+		array[i] = list.get(i);
+	}
+	return array;
+}
