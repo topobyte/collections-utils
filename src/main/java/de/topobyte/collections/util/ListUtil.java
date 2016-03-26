@@ -158,4 +158,12 @@ public class ListUtil
 		return new ListWithAppendedElement<>(list, element);
 	}
 
+	/**
+	 * Get the last element of the specified list list.
+	 */
+	public static <T> T last(List<T> list)
+	{
+		return list.get(list.size() - 1);
+	}
+
 }
