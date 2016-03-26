@@ -140,4 +140,22 @@ public class ListUtil
 		return array;
 	}
 
+	/**
+	 * Create an unmodifiable list that contains the elements of the specified
+	 * list plus the additional element prepended at its front.
+	 */
+	public static <T> List<T> prepended(List<T> list, T element)
+	{
+		return new ListWithPrependedElement<>(element, list);
+	}
+
+	/**
+	 * Create an unmodifiable list that contains the elements of the specified
+	 * list plus the additional element append at its tail.
+	 */
+	public static <T> List<T> appended(List<T> list, T element)
+	{
+		return new ListWithAppendedElement<>(list, element);
+	}
+
 }
