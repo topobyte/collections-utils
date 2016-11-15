@@ -159,7 +159,7 @@ public class ListUtil
 	}
 
 	/**
-	 * Get the last element of the specified list list.
+	 * Get the last element of the specified list.
 	 */
 	public static <T> T last(List<T> list)
 	{
