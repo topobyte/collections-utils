@@ -166,4 +166,12 @@ public class ListUtil
 		return list.get(list.size() - 1);
 	}
 
+	/**
+	 * Remove the last element of the specified list.
+	 */
+	public static <T> T removeLast(List<T> list)
+	{
+		return list.remove(list.size() - 1);
+	}
+
 }
