@@ -21,9 +21,9 @@ import java.util.Collection;
 import java.util.Iterator;
 
 /**
+ * Utilities for collections.
+ * 
  * @author Sebastian Kuerten (sebastian@topobyte.de)
- *
- *         Utilities for collections.
  */
 public class CollectionUtil
 {

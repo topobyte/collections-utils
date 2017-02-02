@@ -21,9 +21,9 @@ import java.util.List;
 import java.util.Random;
 
 /**
+ * Utilities for lists.
+ * 
  * @author Sebastian Kuerten (sebastian@topobyte.de)
- *
- *         Utilities for lists.
  */
 public class ListUtil
 {
